@@ -1,0 +1,33 @@
+- name: Gabriel Franco
+  photo: gabriel.png
+  info: PhD student, Computer Science
+  interests: Interpretability
+  website: https://gaabrielfranco.github.io/
+
+- name: Peter Tang
+  photo: peter.jpg
+  info: PhD student, Computer Science
+  interests: Explanations
+  website: https://pootiet.github.io/
+
+- name: Nicholas Edwards
+  photo: nick.jpg
+  info: PhD student @ University of Vienna
+  interests: Agents
+  website: https://nedwards99.github.io/
+
+- name: Jing Liu
+  short_name: Jing
+  photo: placeholder2.png
+  info: PhD student @ PSL
+  website: https://sites.google.com/view/jliucog
+
+- name: Xiang Fu
+  photo: placeholder2.png
+  info: UROP, Spring--Summer 2026
+  interests: Rule- vs. Example-based learning
+
+- name: Angelo Amato
+  photo: placeholder2.png 
+  info: UROP, Summer 2026
+  interests: Same-different judgments in VLMs

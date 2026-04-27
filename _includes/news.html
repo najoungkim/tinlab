@@ -1,11 +1,33 @@
 
+<style>
+.news-item {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.news-item-date {
+  font-weight: bold;
+  white-space: nowrap;
+  margin-right: 15px;
+}
+.news-item-content p {
+  margin: 0;
+}
+.news-item:last-of-type {
+  border-bottom: none;
+}
+</style>
+
 <div class="well">
 <h4>News</h4>
 
-{% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
+{% for article in site.data.news limit:10 %}
+
+{% include news_item.html article=article css_prefix="news" %}
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<h4 style="margin-top: 15px;"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
 
-    </div>
+</div>

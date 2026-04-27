@@ -1,0 +1,90 @@
+- semester: "Spring 2026"
+  talks:
+    - date: "2026-04-03"
+      speaker: "Mikey Lepori (Brown)"
+      website: "https://lepori.xyz/"
+      title: "Revealing Convergent Representations in Minds and Machines Using Mechanistic Interpretability"
+      abstract: |
+        Contemporary pretrained transformers offer a concrete set of computational models that can solve a wide range of tasks of interest to the cognitive sciences. At the same time, the field of mechanistic interpretability has provided a rich set of techniques and ideas for characterizing the algorithms and representations that models implement to perform such tasks. However, it remains unclear how to best integrate these advances into the cognitive sciences.
+
+        In this talk, I build on recent theoretical perspectives in computational neuroscience to suggest two concrete strategies for employing mechanistic interpretability in the study of the mind. First, I will present a case study of using mechanistic interpretability to provide converging computational evidence for a hypothesized algorithm underlying the processing of an abstract visual relation. Next, I will present a case study of using mechanistic interpretability to generate new hypotheses about the function of voxel populations in language-responsive brain areas. Taken together, these diverse case studies suggest that mechanistic interpretability can serve not only as a practical framework for analyzing and controlling models, but as a powerful toolkit for generating and evaluating algorithmic hypotheses about cognition.
+
+    - date: "2026-04-10"
+      speaker: "Laura Ruis (MIT)"
+      website: "https://lauraruis.github.io/"
+      title: "Hidden Computations: Planning and Reasoning in the Forward Pass"
+      abstract: |
+        Since the discovery that large language models (LLMs) perform better when allowed to reason in their chain-of-thought (CoT), externalized reasoning has become central not only to model performance but also to scalable oversight: overseers can inspect a model’s reasoning trace to monitor its actions. Yet the viability of CoT monitoring depends on how well models can reason latently, outside the reasoning trace itself. In this talk, I present two results on latent reasoning in frontier LLMs. First, we show that top LLMs struggle with a simple planning task when reasoning must happen latently and without supervision on intermediate steps: scaling from a tiny transformer to GPT-5.4 yields only four additional planning steps, whereas even small models solve much longer instances with CoT. Second, we show that although models struggle to discover even simple latent strategies on their own, they can nevertheless learn more complex latent reasoning from declarative instructions. Models generalize from descriptions seen in training to procedural execution at test time, and a single instruction can substitute for up to 100 step-by-step examples. Together, these results offer a mixed picture of CoT monitoring as a strategy for scalable oversight.
+
+    - date: "2026-04-16"
+      speaker: "Leonor Veloso (U Munich)"
+      website: "https://leonorv.github.io/"
+      title: "Measuring the Entanglement of Gender Bias and Factual Gender"
+      abstract: |
+        Recent works have analyzed the impact of individual components of neural networks on gendered predictions, often with a focus on mitigating gender bias. However, mechanistic interpretations of gender tend to (i) focus on a very specific gender-related task, such as gendered pronoun prediction, or (ii) fail to distinguish between the production of factually gendered outputs (the correct assumption of gender given a word that carries gender as a semantic property) and gender biased outputs (based on a stereotype). In this talk, I will present GKnow, a benchmark to assess factual gender knowledge and gender bias in language models across different types of gender-related predictions. GKnow also allows us to identify circuits and individual neurons responsible for solving different gender-related tasks. I will discuss our findings on circuit-level entanglement of gender bias and factual gender, and how widely used benchmarks for evaluating gender bias can mask a decrease in factual gender knowledge after ablation-based debiasing. Finally, I will conclude with a discussion on the limitations of this analysis, future work, and possible avenues for research on the intersection of interpretability and fairness.
+
+    - date: "2026-04-24"
+      speaker: "Taiga Someya (U Tokyo)"
+      website: "https://agiats.me/"
+      title: "Information-Theoretic Analysis of Inductive Bias and Pre-pretraining"
+      abstract: |
+       Large language models (LLMs) have achieved remarkable success in language tasks, yet the mechanisms underlying their linguistic abilities and the principles that govern their learning remain poorly understood. One promising approach is to identify statistical/information-theoretic properties of data, and to ask how such properties shape what and how LLMs learn. In this talk, I focus on a single such property — information locality, the tendency for informationally related elements to be placed in close proximity in natural language — and use it to illuminate two distinct aspects of language models. The first case study treats information locality as a lens on the inductive biases of Transformer language models: by systematically varying the information locality of training data, we characterize which statistical structures Transformers find easy or hard to learn. The second case study turns to a recently proposed pre-pretraining paradigm that injects useful structural biases into LLMs prior to standard pretraining, and shows that the same notion of information locality partly explains the effectiveness of pre-pretraining.
+
+    - date: "2026-05-01"
+      speaker: "Karima Elgamal (BU)"
+      website: "https://karimaelgamal.faculty.bio/"
+      title: TBD
+      abstract: TBD
+
+- semester: "Fall 2025"
+  talks:
+    - date: "2025-09-18"
+      speaker: "Cheng Tang (MIT)"
+      website: "https://scholar.google.com/citations?user=bwYhYR0AAAAJ&hl=en"
+      title: An explainable transformer circuit for compositional generalization
+      abstract: |
+        Compositional generalization—the systematic combination of known elements into novel ensembles— is a hallmark of human cognition, enabling flexible problem-solving beyond rote memorization. While transformer models exhibit surprising proficiency in such tasks (Lake et al., 2023), the underlying mechanisms remain poorly understood. In this case study, we reverse-engineer how a transformer achieves compositional generalization at the circuit level, focusing on a function-primitive composition task. In this task, the model infers functions from in-context learning examples (e.g., interpreting "apple kiki → apple apple" to deduce that "kiki" means double) and generalizes them to new primitives (e.g., applying "kiki" to "tree" to produce "tree tree"). Our trained transformer achieves high test accuracy (~98%), demonstrating robust generalization.
+        
+        In the first half of the presentation, I will introduce the basics of transformer and provide an intuitive account on how attention operations perform information-routing between tokens with a slot-like data structure. Then I will present the human-interpretable algorithm implemented by the model, walk through the circuit discovery procedure, and highlight the correspondence between attention heads and the algorithm’s steps. Lastly, I will show causal perturbation experiments that validates the reverse-engineered circuit. This presentation aims to demystify the black-box impression of transformers and invite discussion between model understanding and model control.
+
+    - date: "2025-10-02"
+      speaker: "Kiho Park (UChicago)"
+      website: "https://kihopark.github.io/"
+      title: The Geometry of Concepts in Large Language Models
+      abstract: |
+        The recent success of generative AI raises a central scientific question: How are high-level concepts encoded within these models? Interpretability research aims to answer this by studying their internal representation spaces. In this talk, I will focus on the geometry of these spaces and how it relates to semantic structure. I will present two recent works. The first develops a formalization of the linear representation hypothesis, which posits that concepts correspond to linear directions in representation space. We demonstrate how this connects to probing and steering, and how the geometry of language model representations can be understood using a causal inner product. The second work extends this perspective. While the first assumes a global inner product geometry, we consider the natural geometry induced by the softmax distribution, which is closely related to information geometry. This dual structure provides new insights into probing and steering with linear operations. Together, these results offer a principled view of how concepts are represented in high-dimensional spaces and provide new tools for interpreting and controlling generative AI systems.
+
+    - date: "2025-10-16"
+      speaker: "Jane Li (JHU)"
+      website: "http://jane-li.notion.site/"
+      title: Linear representations of grammaticality in large language models
+      abstract: |
+        The question of whether modern artificial neural networks are sensitive to the grammaticality of linguistic expressions has been widely investigated with string probability measurements. However, string probabilities are a function of a wide range of properties of an expression including grammaticality. In this work, we argue that analyses of model internals complements probabilities in assessing models’ sensitivity to grammaticality, as well as allowing for stronger claims about grammaticality as an abstraction and the nature of this abstraction. To this end, we ask whether a grammaticality signal that is generalizable across different linguistic phenomena can be found in the contextualized representations of language models, and how this signal changes as the expression unfolds. We investigate this question via a series of linear probing experiments across a wide variety of grammatical and ungrammatical sentences whose source of ungrammaticality vary. Importantly, these expressions are presented to the model without explicitly being embedded in the context of an acceptability judgment task. We find a widely generalizable grammaticality signal that is impervious to various confounds (e.g., string probability, event plausibility) across various LLMs. This suggests that an abstract notion of grammaticality is encoded in the models’ representations of linguistic expressions. Investigations of these representations, for instance in terms of their structure and the conditions under which the models develop this representational separation, will be helpful in better establishing their connections to theoretical objects from linguistics.
+
+    - date: "2025-10-23"
+      speaker: "Guy Davidson (Meta)"
+      website: "https://guydavidson.me/"
+      title: Goals as Reward-Producing Programs
+      abstract: | 
+        Goals are a prevalent idea across the cognitive sciences, and as the basis for agentic and motivated behavior, have been of interest to psychologists since the field's inception. The human concept of a goal is remarkably flexible: from the representation of a single goal, be it self-proposed or externally provided, we can plan how to pursue the goal, propose similar ones, evaluate progress toward a goal, and infer how well it aligns with observed behavior. How do we do it? What sort of representation might offer such behavioral flexibility? How do we even define a goal? Its ubiquity notwithstanding, the term 'goal' is often left undefined in psychological work, and when definitions are provided, they can suffer from inconsistency and a lack of technical rigor. Unlike psychology, approaches in artificial intelligence have offered technically precise definitions of goals, driven by the necessity to implement and evaluate ideas in code. However, here the definitions provided are often ones of convenience, reducing goals to target states of the world to achieve. While technically successful, these definitions fail to capture the rich, creative, and often idiosyncratic goals people routinely create for themselves and for others. My work offers a path forward by empirically studying human-created goals and proposing a program-based representation I term reward-producing programs that can capture the complexity of human goals.  I then leverage these representations to build computational models of goal generation and goal inference in two different settings, and conclude with a foray into studying similar questions in large language models.
+
+    - date: "2025-11-06"
+      speaker: "Xiulin Yang (Georgetown)"
+      website: "https://xiulinyang.github.io/"
+      title: "PoSH-Bench: A Systematic Assessment of Structural Generalization Fails to Provide Evidence for the Poverty of the Stimulus Hypothesis"
+      abstract: |
+        The Poverty of the Stimulus (PoS) Hypothesis holds that children acquire complex linguistic knowledge despite receiving limited and often ambiguous input, suggesting the presence of innate linguistic constraints. Neural language models, which lack such domain-specific priors, offer a computational testbed for this claim. Previous studies, however, have produced mixed results, largely due to differences in data source and scale, model architecture, and the specific linguistic phenomena evaluated. In this paper, we present a more systematic and developmentally realistic investigation of this hypothesis by training transformer models on input that reflects both the quantity and quality of linguistic experience available to children, and by evaluating their performance with our newly introduced benchmark, PoSH-Bench, which covers five linguistic phenomena central to language acquisition research. We show that transformers can consistently generalize to learn these phenomena with as little as 10 million words of training data. We further examine two cognitively plausible biases - one linguistic-specific and the other cognitively general - and find that while these biases improve overall linguistic competence, they fail to enhance performance on PoS-related phenomena.
+
+    - date: "2025-11-13"
+      speaker: "Enyan Zhang (Yale)"
+      website: "https://enyanz.com/"
+      title: A Unifying Perspective of LM Interpretations
+      abstract: |
+        Mechanistic Interpretability offers a rapidly growing set of techniques for understanding neural networks, but the connection between different techniques and the implications of their underlying assumptions remain underexplored. We present a unifying perspective of different techniques under the formalization of Tensor Product Representations (TPRs). For 3 representative interpretation techniques: additive analogies, linear probing, and sparse autoencoders, we first show mathematically that they can be derived from, and thus explained by, TPRs. We then show empirically that with a trained Tensor Product Encoder, one can analytically construct others with no additional training. Our results give a unifying view of the apparent success of different interpretation techniques, and shed light on the possible representational structure of a wide range of neural networks.
+
+    - date: "2025-12-11"
+      speaker: "Apoorv Khandelwal (Brown)"
+      website: "https://apoorvkh.com/"
+      title: How Do Language Models Compose Functions?
+      abstract: | 
+        While large language models (LLMs) appear to be increasingly capable of solving compositional tasks, it is an open question whether they do so using compositional mechanisms. In this work, we investigate how feedforward LLMs solve two-hop factual recall tasks, which can be expressed compositionally as g(f(x)). We first confirm that modern LLMs continue to suffer from the "compositionality gap": i.e. their ability to compute both z=f(x) and y=g(z) does not entail their ability to compute the composition y=g(f(x)). Then, using logit lens on their residual stream activations, we identify two processing mechanisms, one which solves tasks compositionally, computing f(x) along the way to computing g(f(x)), and one which solves them directly, without any detectable signature of the intermediate variable f(x). Finally, we find that which mechanism is employed appears to be related to the embedding space geometry, with the idiomatic mechanism being dominant in cases where there exists a linear mapping from x to g(f(x)) in the embedding spaces.

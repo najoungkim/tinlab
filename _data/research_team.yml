@@ -1,0 +1,44 @@
+- name: Najoung Kim
+  short_name: Najoung
+  photo: najoung.png
+  info: Assistant Professor in Linguistics, Affiliated Faculty in Computer Science, & CDS Faculty Fellow
+  interests: Meaning
+  website: https://najoung.kim
+
+- name: Aditya Yedetore
+  short_name: Adi
+  photo: adi.png
+  info: PhD student, Linguistics
+  interests: Cognition
+  website: https://adityayedetore.github.io/
+
+- name: Yulu Qin
+  short_name: Yulu
+  photo: yulu.png
+  info: PhD student, CDS
+  interests: Grounding
+  website: https://yuluqinn.github.io/
+
+- name: Audrey Mao
+  short_name: Audrey
+  photo: placeholder2.png
+  info: PhD student, Computer Science
+  website:
+
+- name: Yukyung Lee
+  short_name: Yukyung
+  photo: yukyung.png
+  info: Postdoctoral Associate
+  website: https://yukyunglee.com/
+  interests: Evaluation
+
+- name: Dora Agali
+  short_name: Dora
+  photo: dora.jpg
+  info: Senior Research Technician
+  interests: Humans
+  website: https://www.linkedin.com/in/dora-agali/
+
+- name: "This could be you!"
+  photo: placeholder.png
+  website: /joining

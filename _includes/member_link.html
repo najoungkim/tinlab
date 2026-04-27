@@ -1,0 +1,64 @@
+{% assign target_name = include.name %}
+{% assign target_website = "" %}
+{% assign target_short_name = "" %}
+
+{% for member in site.data.research_team %}
+  {% if member.name == target_name %}
+    {% assign target_website = member.website %}
+    {% assign target_short_name = member.short_name %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if target_website == "" or target_website == nil %}
+  {% for member in site.data.student_collaborators %}
+    {% if member.name == target_name %}
+      {% assign target_website = member.website %}
+      {% assign target_short_name = member.short_name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if target_website == "" or target_website == nil %}
+  {% for member in site.data.friends %}
+    {% if member.name == target_name %}
+      {% assign target_website = member.website %}
+      {% assign target_short_name = member.short_name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if target_website == "" or target_website == nil %}
+  {% for member in site.data.alumni_members %}
+    {% if member.name == target_name %}
+      {% assign target_website = member.website %}
+      {% assign target_short_name = member.short_name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if target_website == "" or target_website == nil %}
+  {% for member in site.data.former_affiliates %}
+    {% if member.name == target_name %}
+      {% assign target_website = member.website %}
+      {% assign target_short_name = member.short_name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign display_text = target_name %}
+{% if include.full != "true" and include.full != true %}
+  {% if target_short_name != "" and target_short_name != nil %}
+    {% assign display_text = target_short_name %}
+  {% endif %}
+{% endif %}
+
+{% if target_website != "" and target_website != nil %}
+<a href="{{ target_website }}">{{ display_text }}</a>
+{% else %}
+{{ display_text }}
+{% endif %}

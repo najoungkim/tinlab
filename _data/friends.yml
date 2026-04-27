@@ -1,0 +1,33 @@
+- name: Sebastian Schuster
+  photo: sebastian.jpg
+  info: Assistant Professor in Computer Science, University of Vienna
+  website: https://sebschu.com/
+  interests: Meaning
+
+- name: Kanishka Misra
+  photo: kanishka.jpg
+  info: Assistant Professor in Linguistics, UT Austin
+  website: https://kanishka.website/
+  interests: Concepts
+
+- name: Anthony Yacovone
+  photo: anthony.png
+  info: Assistant Professor in Linguistics, BU
+  website: https://www.anthonyyacovone.com/
+  interests: Developmental Psycholinguistics
+
+- name: Sophie Hao
+  photo: sophie.png
+  info: Assistant Professor in Linguistics, BU
+  website: https://notaphonologist.com/
+  interests: Foundations 
+
+- name: Jane Li
+  photo: jane.webp
+  info: PhD student, JHU CogSci
+  website: https://jane-li.notion.site/
+  interests: Psycholinguistics
+
+- name: "This could be you!"
+  photo: placeholder.png
+  info: Reach out to Najoung if you think you are a FoT

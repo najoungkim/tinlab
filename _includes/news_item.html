@@ -1,0 +1,50 @@
+{% assign emoji = "" %}
+{% if include.article.category == "Papers" or include.article.category == "Paper" %}
+  {% assign emoji = "📄 " %}
+{% elsif include.article.category == "Talk" or include.article.category == "Presentation" %}
+  {% assign emoji = "🎤 " %}
+{% elsif include.article.category == "Award" %}
+  {% assign emoji = "🏆 " %}
+{% elsif include.article.category == "Welcome" or include.article.category == "Team" %}
+  {% assign emoji = "👋 " %}
+{% elsif include.article.category == "Popper" %}
+  {% assign emoji = "🎉 " %}
+{% else %}
+  {% assign emoji = "📌 " %}
+{% endif %}
+
+<div class="{{ include.css_prefix }}-item">
+  <div class="{{ include.css_prefix }}-item-date">{{ emoji }}{{ include.article.date }}</div>
+  <div class="{{ include.css_prefix }}-item-content">
+    {% assign final_headline = include.article.headline %}
+    {% assign all_members = site.data.research_team | concat: site.data.student_collaborators | concat: site.data.friends | concat: site.data.alumni_members | concat: site.data.former_affiliates %}
+    {% for member in all_members %}
+      {% assign full_token = "@@" | append: member.name %}
+      {% assign short_token = "@" | append: member.name %}
+      
+      {% if final_headline contains full_token %}
+        {% assign display_name = member.name %}
+        {% if member.website and member.website != "" %}
+          {% capture link %}<a href="{{ member.website }}">{{ display_name }}</a>{% endcapture %}
+        {% else %}
+          {% assign link = display_name %}
+        {% endif %}
+        {% assign final_headline = final_headline | replace: full_token, link %}
+      {% endif %}
+
+      {% if final_headline contains short_token %}
+        {% assign display_name = member.name %}
+        {% if member.short_name and member.short_name != "" %}
+          {% assign display_name = member.short_name %}
+        {% endif %}
+        {% if member.website and member.website != "" %}
+          {% capture link %}<a href="{{ member.website }}">{{ display_name }}</a>{% endcapture %}
+        {% else %}
+          {% assign link = display_name %}
+        {% endif %}
+        {% assign final_headline = final_headline | replace: short_token, link %}
+      {% endif %}
+    {% endfor %}
+    {{ final_headline | markdownify }}
+  </div>
+</div>
