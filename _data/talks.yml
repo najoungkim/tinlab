@@ -33,8 +33,9 @@
     - date: "2026-05-01"
       speaker: "Karima Elgamal (BU)"
       website: "https://karimaelgamal.faculty.bio/"
-      title: TBD
-      abstract: TBD
+      title: The Exploration of Explanatory Preferences
+      abstract: | 
+       | Children are constantly exposed to explanations that vary not only in type (e.g., mechanistic vs. teleological) but also in level of detail. While prior research has examined these dimensions independently, less is known about how they jointly shape children's learning and generalization. In this talk, I present findings from a study of 7 to 9-year-old children (N = 141) examining how explanation type and explanatory detail interact to influence children's preferences, learning, and generalization. Using a between-subjects manipulation of explanation type (mechanistic, teleological, non-explanatory) and a within-subjects manipulation of detail (low, intermediate, high), children evaluated explanations, generated explanations for novel cases, and completed a learning task. Findings thus far suggest that children prioritize the structural form of explanations over the amount of detail they contain. More broadly, the results support the view that children represent explanations as structured, abstract schemas rather than as surface-level informational content.
 
 - semester: "Fall 2025"
   talks:
