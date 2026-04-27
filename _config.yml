@@ -9,8 +9,8 @@
 title: tinlab
 description: > # this means to ignore newlines until "baseurl:"
   tinlab
-baseurl: ""
-url: ""
+baseurl: "/tinlab"
+url: "https://najoung.kim"
 
 include:
   - .htaccess
