@@ -25,7 +25,7 @@ Jump to [Research Team](#research-team), [Student collaborators](#student-collab
 
 <div class="col-sm-4 clearfix" style="text-align: center; margin-bottom: 30px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="display: block; width: 150px; height: 150px; object-fit: cover; margin: 0 auto 15px auto !important;" />
-  <h4>{% if member.website %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+  <h4>{% if member.website %}{% if member.website contains '://' %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}<a href="{{ site.baseurl }}{{ member.website }}">{{ member.name }}</a>{% endif %}{% else %}{{ member.name }}{% endif %}</h4>
   <b>{{ member.info }}</b>
   {% if member.interests %}<br><i>{{ member.interests }}</i>{% endif %}
 </div>
@@ -56,7 +56,7 @@ Jump to [Research Team](#research-team), [Student collaborators](#student-collab
 
 <div class="col-sm-4 clearfix" style="text-align: center; margin-bottom: 30px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="display: block; width: 150px; height: 150px; object-fit: cover; margin: 0 auto 15px auto !important;" />
-  <h4>{% if member.website %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+  <h4>{% if member.website %}{% if member.website contains '://' %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}<a href="{{ site.baseurl }}{{ member.website }}">{{ member.name }}</a>{% endif %}{% else %}{{ member.name }}{% endif %}</h4>
   <b>{{ member.info }}</b>
   {% if member.interests %}<br><i>{{ member.interests }}</i>{% endif %}
 </div>
@@ -87,7 +87,7 @@ Jump to [Research Team](#research-team), [Student collaborators](#student-collab
 
 <div class="col-sm-4 clearfix" style="text-align: center; margin-bottom: 30px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="display: block; width: 150px; height: 150px; object-fit: cover; margin: 0 auto 15px auto !important;" />
-  <h4>{% if member.website %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+  <h4>{% if member.website %}{% if member.website contains '://' %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}<a href="{{ site.baseurl }}{{ member.website }}">{{ member.name }}</a>{% endif %}{% else %}{{ member.name }}{% endif %}</h4>
   <b>{{ member.info }}</b>
   {% if member.interests %}<br><i>{{ member.interests }}</i>{% endif %}
 </div>
@@ -118,7 +118,7 @@ Jump to [Research Team](#research-team), [Student collaborators](#student-collab
 
 <div class="col-sm-4 clearfix" style="text-align: center; margin-bottom: 30px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="display: block; width: 150px; height: 150px; object-fit: cover; margin: 0 auto 15px auto !important;" />
-  <h4>{% if member.website %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
+  <h4>{% if member.website %}{% if member.website contains '://' %}<a href="{{ member.website }}">{{ member.name }}</a>{% else %}<a href="{{ site.baseurl }}{{ member.website }}">{{ member.name }}</a>{% endif %}{% else %}{{ member.name }}{% endif %}</h4>
   <b>{{ member.info }}</b>{% if member.interests %}<br><i>{{ member.interests }}</i>{% endif %}{% if member.current %}<br>{{ member.current }}{% endif %}
 </div>
 
