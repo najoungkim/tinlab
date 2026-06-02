@@ -8,6 +8,11 @@
 
 # 2026
 
+- title: "Do language models track entities across state changes?"
+  authors: "Zilu (Peter) Tang,* Qiao Zhao,* Gabriel Franco, Derry Wijaya, Aaron Mueller, Sebastian Schuster, and <b>Najoung Kim</b>. (*Equal contribution)"
+  url: https://arxiv.org/abs/2605.30233
+  venue: "ICML 2026"
+
 - title: "RExBench: Can coding agents autonomously implement AI research extensions?"
   authors: "Nicholas Edwards,* <b>Yukyung Lee</b>,* <b>Yujun Audrey Mao</b>, <b>Yulu Qin</b>, Sebastian Schuster,† and <b>Najoung Kim</b>.† (*,†Equal contribution)"
   url: https://arxiv.org/abs/2506.22598
