@@ -1,6 +1,10 @@
 - date: May 2026
-  headline: "@@Yulu Qin has been awarded the [Hariri Graduate Student Fellowship](https://www.bu.edu/hic/2026-hariri-institute-junior-faculty-fellows-and-graduate-student-fellows/)!"
+  headline: "@Yulu Qin has been awarded the [Hariri Graduate Student Fellowship](https://www.bu.edu/hic/2026-hariri-institute-junior-faculty-fellows-and-graduate-student-fellows/)!"
   category: Popper
+
+- date: May 2026
+  headline: "@Najoung Kim gave a talk titled _Language models for language sciences_ at [Stanford NLP](https://nlp.stanford.edu/seminar/details/najoung_kim_2026.shtml). Slides [here](https://docs.google.com/presentation/d/168caKZ2YFwWHlDq2M14IRBaRvwOkJCPybtgQWJugP4E/edit?usp=sharing)."
+  category: Presentation
 
 - date: May 2026
   headline: "[Do Language Models Track Entities Across State Changes?](https://arxiv.org/abs/2605.30233) has been accepted to ICML 2026! Work with @@Peter Tang, Qiao Zhao, @@Gabriel Franco, Derry Wijaya, Aaron Mueller, and @@Sebastian Schuster."
