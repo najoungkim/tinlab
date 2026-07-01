@@ -6,6 +6,11 @@
   url: https://arxiv.org/abs/2408.05086
   venue: "arXiv"
 
+- title: "No Escape from Behavior in Evaluating Compositionality"
+  authors: "<b>Najoung Kim</b>"
+  url: https://osf.io/preprints/psyarxiv/u6tnx_v1
+  venue: "PsyArXiv"
+
 # 2026
 
 - title: "Do language models track entities across state changes?"
