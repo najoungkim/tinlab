@@ -11,6 +11,11 @@
   url: https://osf.io/preprints/psyarxiv/u6tnx_v1
   venue: "PsyArXiv"
 
+- title: "Linear representations of grammaticality in neural language models"
+  authors: "Jane Li and <b>Najoung Kim</b>"
+  url: https://arxiv.org/abs/2607.15175
+  venue: "arXiv"
+
 # 2026
 
 - title: "Do language models track entities across state changes?"
