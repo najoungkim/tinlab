@@ -18,6 +18,11 @@
 
 # 2026
 
+- title: "Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models"
+  authors: "Jing Liu and <b>Najoung Kim</b>"
+  url: ""
+  venue: "COLM 2026"
+
 - title: "Do language models track entities across state changes?"
   authors: "Zilu (Peter) Tang,* Qiao Zhao,* Gabriel Franco, Derry Wijaya, Aaron Mueller, Sebastian Schuster, and <b>Najoung Kim</b>. (*Equal contribution)"
   url: https://arxiv.org/abs/2605.30233
@@ -29,7 +34,7 @@
   venue: "ACL 2026"
 
 - title: "Are they lovers or friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogue"
-  authors: "Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A. Seza Doğruöz, <b>Najoung Kim</b>,* and Alice Oh.* (*Equal contribution)"
+  authors: "Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A. Seza Doğruöz, Alice Oh, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2510.19028
   venue: "ACL 2026"
 
@@ -50,6 +55,7 @@
   authors: "<b>Yukyung Lee</b>, JoongHoon Kim, Jaehee Kim, Hyowon Cho, Jaewook Kang, Pilsung Kang, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2403.18771
   venue: "EMNLP 2025"
+  award: "Nominated for best paper"
 
 - title: "Mechanistic Understanding of Entity Tracking in Natural Language involving Multiple Operations"
   authors: "Zilu (Peter) Tang, Qiao Zhao, Gabriel Franco, Geneva Yang, Angelos Poulis, Derry Wijaya, Aaron Mueller, Sebastian Schuster, and <b>Najoung Kim</b>"

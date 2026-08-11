@@ -1,6 +1,14 @@
 - date: July 2026
+  headline: '"Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models" has been accepted to COLM 2026! Work with @@Jing Liu.'
+  category: Paper
+
+- date: July 2026
   headline: Preprint for "Linear representations of grammaticality in neural language models" is out on [arXiv](https://arxiv.org/abs/2607.15175). Joint work with @@Jane Li.
   category: Paper
+
+- date: July 2026
+  headline: "@Najoung Kim presented _How do we move beyond associative insights from Artificial Intelligence?_ at CreteLing. Slides [here](https://docs.google.com/presentation/d/14zYuN8claT8AmKNYR05JumCjj2mngdrh32Xj9NVLNO0/edit?usp=sharing)"
+  category: Presentation
 
 - date: July 2026
   headline: Preprint for "No Escape from Behavior in Evaluating Compositionality" is out on [PsyArxiv](https://osf.io/preprints/psyarxiv/u6tnx_v1).
@@ -31,8 +39,8 @@
   category: Paper
 
 - date: April 2026
-  headline: '"Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models" has been accepted to CogSci 2026! Work with @@Jing Liu.'
-  category: Paper
+  headline: '"Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models" has been accepted to CogSci 2026 as an abstract! Work with @@Jing Liu.'
+  category: Presentation
 
 - date: March 2026
   headline: '@Najoung Kim presented "(How) Do Language Models Track Entities Across State Changes?" at MassMutual (work with @@Peter Tang, Qiao Zhao, @@Gabriel Franco, Derry Wijaya, Aaron Mueller, and @@Sebastian Schuster).'
