@@ -5,43 +5,57 @@
   authors: "Kanishka Misra and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2408.05086
   venue: "arXiv"
+  year: "Work in Progress"
 
 - title: "No Escape from Behavior in Evaluating Compositionality"
   authors: "<b>Najoung Kim</b>"
   url: https://osf.io/preprints/psyarxiv/u6tnx_v1
   venue: "PsyArXiv"
+  year: "Work in Progress"
 
 - title: "Linear representations of grammaticality in neural language models"
   authors: "Jane Li and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2607.15175
   venue: "arXiv"
+  year: "Work in Progress"
 
 # 2026
 
+- title: "LLMs Learn Better In-Context from Rules than from Examples"
+  authors: "<b>Xiang Fu</b>,* <b>Seung-Min Cho</b>,* <b>Yukyung Lee</b>, and <b>Najoung Kim</b>"
+  url: https://arxiv.org/abs/2609.03213
+  venue: "EMNLP 2026"
+  year: 2026
+
 - title: "Does Episodic Memory Help Close the Lexical Frequency Gap in Sensitivity to Syntactic Contrasts? A Test Using Retrieval-Augmented Language Models"
-  authors: "Jing Liu and <b>Najoung Kim</b>"
+  authors: "<b>Jing Liu</b> and <b>Najoung Kim</b>"
   url: http://arxiv.org/abs/2608.23851
   venue: "COLM 2026"
+  year: 2026
 
 - title: "Do language models track entities across state changes?"
   authors: "Zilu (Peter) Tang,* Qiao Zhao,* Gabriel Franco, Derry Wijaya, Aaron Mueller, Sebastian Schuster, and <b>Najoung Kim</b>. (*Equal contribution)"
   url: https://arxiv.org/abs/2605.30233
   venue: "ICML 2026"
+  year: 2026
 
 - title: "RExBench: Can coding agents autonomously implement AI research extensions?"
   authors: "Nicholas Edwards,* <b>Yukyung Lee</b>,* <b>Yujun Audrey Mao</b>, <b>Yulu Qin</b>, Sebastian Schuster,† and <b>Najoung Kim</b>.† (*,†Equal contribution)"
   url: https://arxiv.org/abs/2506.22598
   venue: "ACL 2026"
+  year: 2026
 
 - title: "Are they lovers or friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogue"
   authors: "Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A. Seza Doğruöz, Alice Oh, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2510.19028
   venue: "ACL 2026"
+  year: 2026
 
 - title: "Death of the Novel(ty): Beyond n-Gram Novelty as a Metric for Textual Creativity"
   authors: "Arkadiy Saakyan, <b>Najoung Kim</b>, Smaranda Muresan, Tuhin Chakrabarty"
   url: https://arxiv.org/abs/2509.22641
   venue: "ICLR 2026"
+  year: 2026
 
 
 # 2025
@@ -50,77 +64,94 @@
   authors: "<b>Yulu Qin</b>,* Dheeraj Varghese,* Adam Dahlgren Lindström, Lucia Donatelli, Kanishka Misra,† and <b>Najoung Kim</b>.† (*,†Equal contribution)"
   url: https://arxiv.org/abs/2507.13328
   venue: "NeurIPS 2025"
+  year: 2025
 
 - title: "CheckEval: A reliable LLM-as-a-Judge framework for evaluating text generation using checklists"
   authors: "<b>Yukyung Lee</b>, JoongHoon Kim, Jaehee Kim, Hyowon Cho, Jaewook Kang, Pilsung Kang, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2403.18771
   venue: "EMNLP 2025"
   award: "Nominated for best paper"
+  year: 2025
 
 - title: "Mechanistic Understanding of Entity Tracking in Natural Language involving Multiple Operations"
   authors: "Zilu (Peter) Tang, Qiao Zhao, Gabriel Franco, Geneva Yang, Angelos Poulis, Derry Wijaya, Aaron Mueller, Sebastian Schuster, and <b>Najoung Kim</b>"
   url: https://najoung.kim/assets/files/2025_NEMI_entity_tracking.pdf
   venue: "NEMI 2025"
+  year: 2025
 
 - title: "Is analogy enough to draw novel adjective-noun inferences?"
   authors: "<b>Hayley Ross</b>, Kathryn Davidson, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2503.24293
   venue: "SCiL 2025"
+  year: 2025
 
 - title: "Implicit mechanisms for symbol manipulation in RNNs"
   authors: "<b>Aditya Yedetore</b> and <b>Najoung Kim</b>"
   venue: "NENLP 2025"
+  year: 2025
 
 - title: "Transformers Struggle to Learn to Search Without In-context Exploration"
   authors: "Abulhair Saparov, Srushti Pawar, Shreyas Pimpalgaonkar, Nitish Joshi, Richard Yuanzhe Pang, Vishakh Padmakumar, Seyed Mehran Kazemi, <b>Najoung Kim</b>,* and He He.* (*Equal contribution)"
   url: https://openreview.net/forum?id=9cQB1Hwrtw
   venue: "ICLR 2025"
+  year: 2025
 
 - title: "Fake reefs are sometimes reefs and sometimes not, but are always compositional"
   authors: "<b>Hayley Ross</b>, <b>Najoung Kim</b>, and Kathryn Davidson"
   url: https://ling.auf.net/lingbuzz/008012
   venue: "ELM 3 (2025)"
+  year: 2025
+
+# 2024
 
 - title: "Semantic Training Signals Promote Hierarchical Syntactic Generalization in Neural Networks"
   authors: "<b>Aditya Yedetore</b> and <b>Najoung Kim</b>"
   url: https://aclanthology.org/2024.emnlp-main.235/
   venue: "EMNLP 2024"
+  year: 2024
 
 - title: "Code Pretraining Improves Entity Tracking Abilities of Language Models"
   authors: "<b>Najoung Kim</b>,* Sebastian Schuster,* and Shubham Toshniwal.* (*Equal contribution)"
   url: https://arxiv.org/abs/2405.21068
   venue: "arXiv"
+  year: 2024
 
 - title: "Personas as a Way to Model Truthfulness in Language Models"
   authors: "Nitish Joshi, Javier Rando, Abulhair Saparov, <b>Najoung Kim</b>, and He He"
   url: https://arxiv.org/abs/2310.18168
   venue: "EMNLP 2024"
+  year: 2024
 
 - title: "Is artificial intelligence still intelligence? LLMs generalize to novel adjective-noun pairs, but don't mimic the full human distribution"
   authors: "<b>Hayley Ross</b>, Kathryn Davidson, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2410.17482
   venue: "GenBench @ EMNLP 2024"
   award: "Best paper award"
+  year: 2024
 
 - title: "Structural Generalization of Modification in Adult Learners of an Artificial Language"
   authors: "<b>Najoung Kim</b> and Paul Smolensky"
   url: https://osf.io/preprints/psyarxiv/v9h8u
   venue: "CogSci 2024"
+  year: 2024
 
 - title: "Beyond Thumbs Up/Down: Untangling Challenges of Fine-Grained Feedback for Text-to-Image Generation"
   authors: "Katherine M. Collins, <b>Najoung Kim</b>, Yonatan Bitton, Verena Rieser, Shayegan Omidshafiei, Yushi Hu, Sherol Chen, Senjuti Dutta, Minsuk Chang, Kimin Lee, Youwei Liang, Georgina Evans, Sahil Singla, Gang Li, Adrian Weller, Junfeng He, Deepak Ramachandran, and Krishnamurthy Dj Dvijotham"
   url: https://arxiv.org/abs/2406.16807
   venue: "AIES 2024"
+  year: 2024
 
 - title: "Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks"
   authors: "Zhaofeng Wu, Linlu Qiu, Alexis Ross, Ekin Akyürek, Boyuan Chen, Bailin Wang, <b>Najoung Kim</b>, Jacob Andreas, and Yoon Kim"
   url: https://arxiv.org/abs/2307.02477
   venue: "NAACL 2024"
+  year: 2024
 
 - title: "Syn-(QA)^2: Evaluating False Assumptions in Long-tail Questions with Synthetic QA Datasets"
   authors: "Ashwin Daswani, Rohan Sawant, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2403.12145
   venue: "arXiv"
+  year: 2024
 
 # 2023
 
@@ -128,58 +159,69 @@
   authors: "Kanishka Misra and <b>Najoung Kim</b>"
   url: https://kanishka.website/papers/bucld48.pdf
   venue: "BUCLD 47 (2023)"
+  year: 2023
 
 - title: "SLOG: A Structural Generalization Benchmark for Semantic Parsing"
   authors: "Bingzhi Li, Lucia Donatelli, Alexander Koller, Tal Linzen, Yuekun Yao, and <b>Najoung Kim</b>"
   url: https://arxiv.org/abs/2310.15040
   venue: "EMNLP 2023"
+  year: 2023
 
 - title: "Inverse scaling can become U-shaped"
   authors: "Jason Wei,* <b>Najoung Kim</b>,* Yi Tay, and Quoc V. Le (*Equal contribution)"
   url: https://arxiv.org/abs/2211.02011
   venue: "EMNLP 2023"
+  year: 2023
 
 - title: "Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples"
   authors: "Abulhair Saparov, Richard Yuanzhe Pang, Vishakh Padmakumar, Nitish Joshi, Seyed Mehran Kazemi, <b>Najoung Kim</b>,* and He He.* (*Equal contribution)"
   url: https://arxiv.org/abs/2305.15269
   venue: "NeurIPS 2023"
+  year: 2023
 
 - title: "BoardgameQA: A Dataset for Natural Language Reasoning with Contradictory Information"
   authors: "Mehran Kazemi, Quan Yuan, Deepti Bhatia, <b>Najoung Kim</b>, Xin Xu, Vaiva Imbrasaite, and Deepak Ramachandran"
   url: https://arxiv.org/abs/2306.07934
   venue: "NeurIPS 2023 (Datasets and Benchmarks)"
+  year: 2023
 
 - title: "Inverse Scaling: When Bigger Isn't Better"
   authors: "Ian R. McKenzie, Alexander Lyzhov, Michael Pieler, Alicia Parrish, Aaron Mueller, Ameya Prabhu, Euan McLean, Aaron Kirtland, Alexis Ross, Alisa Liu, Andrew Gritsevskiy, Daniel Wurgaft, Derik Kauffman, Gabriel Recchia, Jiacheng Liu, Joe Cavanagh, Max Weiss, Sicong Huang, The Floating Droid, Tom Tseng, Tomasz Korbak, Xudong Shen, Yuhui Zhang, Zhengping Zhou, <b>Najoung Kim</b>, Samuel R. Bowman, and Ethan Perez"
   url: https://arxiv.org/abs/2306.09479
   venue: "TMLR 2023"
   award: "Featured Certification"
+  year: 2023
 
 - title: "Finding Structure in One Child's Linguistic Experience"
   authors: "Wentao Wang, Wai Keen Vong, <b>Najoung Kim</b>, and Brenden M. Lake"
   url: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13305
   venue: "Cognitive Science 2023"
+  year: 2023
 
 - title: "(QA)^2: Question Answering with Questionable Assumptions"
   authors: "<b>Najoung Kim</b>,* Phu Mon Htut,* Samuel R. Bowman, and Jackson Petty (*Equal contribution)"
   url: https://arxiv.org/abs/2212.10003
   venue: "ACL 2023"
+  year: 2023
 
 - title: "Entity Tracking in Language Models"
   authors: "<b>Najoung Kim</b>* and Sebastian Schuster* (*Equal contribution)"
   url: https://arxiv.org/abs/2305.02363
   venue: "ACL 2023"
   award: "Area Chair Award"
+  year: 2023
 
 - title: "LAMBADA: Backward Chaining for Automated Reasoning in Natural Language"
   authors: "Seyed Mehran Kazemi, <b>Najoung Kim</b>, Deepti Bhatia, Xin Xu, and Deepak Ramachandran"
   url: https://arxiv.org/abs/2212.13894
   venue: "ACL 2023"
+  year: 2023
 
 - title: "Reconstruction Probing"
   authors: "<b>Najoung Kim</b>, Jatin Khilnani, Alex Warstadt, and Abed Qaddoumi"
   url: https://arxiv.org/abs/2212.10792
   venue: "Findings of ACL 2023"
+  year: 2023
 
 # 2022
 
@@ -187,6 +229,7 @@
   authors: "<b>Najoung Kim</b>, Tal Linzen, and Paul Smolensky"
   url: https://arxiv.org/abs/2212.10769
   venue: "arXiv (2022)"
+  year: 2022
 
 # 2021
 
@@ -194,16 +237,19 @@
   authors: "<b>Najoung Kim</b>"
   url: https://jscholarship.library.jhu.edu/handle/1774.2/66745
   venue: "PhD Dissertation, Johns Hopkins University (2021)"
+  year: 2021
 
 - title: "Which Linguist Invented the Lightbulb? Presupposition Verification for Question-Answering"
   authors: "<b>Najoung Kim</b>, Ellie Pavlick, Burcu Karagol Ayan, and Deepak Ramachandran"
   url: https://aclanthology.org/2021.acl-long.304/
   venue: "ACL 2021"
+  year: 2021
 
 - title: "Testing for Grammatical Category Abstraction in Neural Language Models"
   authors: "<b>Najoung Kim</b> and Paul Smolensky"
   url: https://scholarworks.umass.edu/scil/vol4/iss1/60/
   venue: "SCiL 2021"
+  year: 2021
 
 # 2020
 
@@ -211,16 +257,19 @@
   authors: "<b>Najoung Kim</b> and Tal Linzen"
   url: https://www.aclweb.org/anthology/2020.emnlp-main.731/
   venue: "EMNLP 2020"
+  year: 2020
 
 - title: "Implicit Discourse Relation Classification: We Need to Talk About Evaluation"
   authors: "<b>Najoung Kim</b>, Song Feng, Chulaka Gunasekara, and Luis A. Lastras"
   url: https://www.aclweb.org/anthology/2020.acl-main.480/
   venue: "ACL 2020"
+  year: 2020
 
 - title: "Maximize presupposition and the Korean demonstrative ku"
   authors: "Sadhwi Srinivas, <b>Najoung Kim</b>, and Kyle Rawlins"
   url: https://www.linguisticsociety.org/abstract/maximize-presupposition-and-korean-demonstrative-ku
   venue: "LSA 2020"
+  year: 2020
 
 # 2019
 
@@ -228,32 +277,38 @@
   authors: "<b>Najoung Kim</b> and Tal Linzen"
   url: https://najoung.kim/assets/files/Kim_Linzen_NeurIPS_workshop_camready.pdf
   venue: "NeurIPS 2019 Workshop on Context and Compositionality"
+  year: 2019
 
 - title: "Probing What Different NLP Tasks Teach Machines About Function Word Comprehension"
   authors: "<b>Najoung Kim</b>, Roma Patel, Adam Poliak, Alex Wang, Patrick Xia, Tom McCoy, Ian Tenney, Alexis Ross, Tal Linzen, Benjamin Van Durme, Sam Bowman, and Ellie Pavlick"
   url: https://arxiv.org/abs/1904.11544
   venue: "*SEM 2019"
   award: "Best Paper Award"
+  year: 2019
 
 - title: "How to Get Past Sesame Street: Sentence-Level Pretraining Beyond Language Modeling"
   authors: "Alex Wang, Jan Hula, Patrick Xia, Raghavendra Pappagari, R. Thomas McCoy, Roma Patel, <b>Najoung Kim</b>, Ian Tenney, Yinghui Huang, Katherin Yu, Shuning Jin, Berlin Chen, Benjamin Van Durme, Edouard Grave, Ellie Pavlick, and Samuel R. Bowman"
   url: https://www.aclweb.org/anthology/P19-1439
   venue: "ACL 2019"
+  year: 2019
 
 - title: "Automatic Scoring of Semantic Fluency"
   authors: "<b>Najoung Kim</b>, Jung-Ho Kim, Maria K. Wolters, Sarah E. MacPherson, and Jong C. Park"
   url: https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01020/full
   venue: "Frontiers in Psychology (2019)"
+  year: 2019
 
 - title: "Predicting the Argumenthood of English Prepositional Phrases"
   authors: "<b>Najoung Kim</b>, Kyle Rawlins, Benjamin Van Durme, and Paul Smolensky"
   url: https://arxiv.org/abs/1809.07889
   venue: "AAAI 2019"
+  year: 2019
 
 - title: "What do you learn from context? Probing for sentence structure in contextualized word representations"
   authors: "Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R Thomas McCoy, <b>Najoung Kim</b>, Benjamin Van Durme, Sam Bowman, Dipanjan Das, and Ellie Pavlick"
   url: https://openreview.net/forum?id=SJzSgnRcKX
   venue: "ICLR 2019"
+  year: 2019
 
 # 2018
 
@@ -261,13 +316,18 @@
   authors: "Maria K. Wolters, <b>Najoung Kim</b>, Jung-Ho Kim, Sarah E. MacPherson, and Jong C. Park"
   url: http://dx.doi.org/10.21437/Interspeech.2016-420
   venue: "Interspeech 2018"
+  year: 2018
+
+# 2016
 
 - title: "Enhanced Sign Language Transcription System via Hand Tracking and Pose Estimation"
   authors: "Jung-Ho Kim, <b>Najoung Kim</b>, Hancheol Park, and Jong C. Park"
   url: https://www.koreascience.or.kr/article/JAKO201630762631870.pdf
   venue: "Journal of Computing Science and Engineering, vol 10.3"
+  year: 2016
 
 - title: "A Morphological Approach to the Longitudinal Detection of Dementia"
   authors: "<b>Najoung Kim</b> and Jong C. Park"
   url: https://dl.acm.org/citation.cfm?id=2903628
   venue: "HCI Korea 2016"
+  year: 2016
