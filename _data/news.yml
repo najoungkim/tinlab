@@ -1,8 +1,8 @@
 - date: September 2026
-  headline: "Welcome [new lab members]({{ site.url }}{{ site.baseurl }}/news): @Yan Lashchev, @David Yang, @Maxwell Barlow, and @Jan Sobotka!"
+  headline: "Welcome [new lab members](/tinlab/people): @Yan Lashchev, @David Yang, @Maxwell Barlow, and @Jan Sobotka!"
 
 - date: September 2026
-  headline: "The schedule for [this semester's invited speaker series]({{ site.url }}{{ site.baseurl }}/talk_series) is up!"
+  headline: "The schedule for [this semester's invited speaker series](/tinlab/talk_series) is up!"
 
 - date: August 2026
   headline: '"[LLMs Learn Better In-Context from Rules than from Examples](https://arxiv.org/abs/2609.03213)" has been accepted to EMNLP 2026! (with Xiang Fu, Seung-Min Cho, and @@Yukyung Lee)'
