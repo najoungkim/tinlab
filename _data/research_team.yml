@@ -39,6 +39,34 @@
   interests: Humans
   website: https://www.linkedin.com/in/dora-agali/
 
+- name: Yan Lashchev
+  short_name: Yan
+  photo: yan.png
+  info: PhD student, CDS
+  interests: Interpretability
+  website: https://yangel.xyz/
+
+- name: David Yang
+  short_name: David
+  photo: david.jpg
+  info: PhD student, Linguistics
+  interests: Cognition
+  website: https://davidmyang.github.io/
+
+- name: Maxwell Barlow
+  short_name: Max
+  photo: max.jpg
+  info: PhD student, CDS
+  interests: Representations
+  website: https://maxb00.github.io/
+
+- name: Jan Sobotka
+  short_name: Jan
+  photo: jan.jpg
+  info: PhD student, CDS (starting Fall 2027)
+  interests: Learning
+  website: https://johnny1188.github.io/
+
 - name: "This could be you!"
   photo: placeholder.png
   website: /joining
