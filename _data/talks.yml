@@ -1,3 +1,33 @@
+- semester: "Fall 2026"
+  talks:
+    - date: "2026-09-17"
+      speaker: "Juhyun Oh (KAIST)"
+      website: "https://juhyunohh.github.io"
+      title: "TBD"
+      abstract: |
+        TBD
+
+    - date: "2026-10-08"
+      speaker: "Ann Huang (Harvard)"
+      website: "https://ann-huang-0.github.io"
+      title: "TBD"
+      abstract: |
+        TBD
+
+    - date: "2026-10-22"
+      speaker: "Orr Well (MIT)"
+      website:
+      title: "TBD"
+      abstract: |
+        TBD 
+
+    - date: "2026-11-12"
+      speaker: "Benno Krojer (Northeastern)"
+      website: https://bennokrojer.com
+      title: "TBD"
+      abstract: |
+        TBD
+
 - semester: "Spring 2026"
   talks:
     - date: "2026-04-03"
