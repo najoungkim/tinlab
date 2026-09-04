@@ -7,17 +7,17 @@ permalink: /joining
 ---
 
 ## Joining tinlab (the official route)
-The information below has been updated in April 2026. Assume this is current, but if is substantially outdated, there is a chance that I have fallen behind on website updates!
+The information below has been updated in September 2026. Assume this is current, but if is substantially outdated, there is a chance that I have fallen behind on website updates!
 
 ### PhD students
-I recruit PhD students through Lingusitics each year unless there are special circumstances. Depending on funding availability, I may also recruit through Computer Science and the Center for Computing & Data Sciences. If I am recruiting in the deparment and you mention my name in the application, I will read your application---no need to email me just to let me know that you are applying. **The recruitment cycle for AY26--27 start is over! I will update this section as we get closer to recruitment for AY27--28 start.**
+I recruit PhD students through Lingusitics each year unless there are special circumstances. Depending on funding availability, I may also recruit through Computer Science and the Center for Computing & Data Sciences. If I am recruiting in the deparment and you mention my name in the application, I will read your application---no need to email me just to let me know that you are applying. **For AY27--28 start, I am highly likely to only recruit through Linguistics unless there are exceptional circumstances. If you think you are an amazing fit but want to be considered in CS or CDS, email me.**
 
 The Linguistics department will be a better fit for you if you are interested in scientific questions about language and/or broader Cognitive Science. If you are primarily interested in AI, I recommend applying to Computer Science (CS) or the Center for Computing & Data Sciences (CDS), depending on your curricular interests and maybe fit with other faculty in the respective departments.
 
-I will also be recruiting through CS & CDS (preferably jointly with other faculty), but I am primarily interested in students who either have joint interests in CogSci/Linguistics or students whose primary interests are in model evaluation. I typically do not work with students whose interests are only machine learning/artificial intelligence more generally. Since my primary affiliation is in Linguistics, it is substantially more likely for me to admit a student in the non-Linguistics departments if there is an obvious co-advisor in the respective departments. 
+I also recruit through CS & CDS (preferably jointly with other faculty), but I am primarily interested in students who either have joint interests in CogSci/Linguistics or students whose primary interests are in model evaluation. I typically do not work with students whose interests are only machine learning/artificial intelligence more generally. Since my primary affiliation is in Linguistics, it is substantially more likely for me to admit a student in the non-Linguistics departments if there is an obvious co-advisor in the respective departments. 
 
 Application links:
-- [Linguistics](https://www.bu.edu/linguistics/admissions/) (Deadline Jan 7 yearly)
+- [Linguistics](https://www.bu.edu/linguistics/admissions/) (Deadline Dec 15 yearly)
 - [Computer Science](https://www.bu.edu/cs/phd-program/admissions/) (Deadline Dec 15 yearly)
 - [Center for Computing & Data Sciences](https://www.bu.edu/cds-faculty/programs-admissions/) (Deadline Dec 15 yearly)
 
