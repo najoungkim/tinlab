@@ -3,9 +3,9 @@
     - date: "2026-09-17"
       speaker: "Juhyun Oh (KAIST)"
       website: "https://juhyunohh.github.io"
-      title: "TBD"
+      title: "Understanding and Evaluating Conversational Satisfaction in Human–AI Interactions"
       abstract: |
-        TBD
+        Contemporary language models are developed and benchmarked as task executors, evaluated on single-turn output correctness, yet they are used as conversational partners whose quality is judged across an entire interaction. This mismatch gives rise to a class of failures that are communicative rather than capability-related, and for which no systematic descriptive or measurement framework currently exists. Grounding our approach in pragmatic theory — cooperative maxims, politeness and face, and accommodation and style — we present a taxonomy of 44 conversational norm violations. We operationalize the taxonomy through two studies: a survey examining the perceived frequency and impact on satisfaction of each norm violation across three conversational purposes, and a study collecting unsatisfying conversations and comparing annotations from the original interlocutors with those from independent third-party annotators. Preliminary findings suggest that the violations users encounter most frequently are not necessarily those that have the greatest impact on satisfaction, highlighting the importance of distinguishing prevalence from consequence when designing evaluations of conversational AI.
 
     - date: "2026-10-08"
       speaker: "Ann Huang (Harvard)"
