@@ -10,23 +10,33 @@
     - date: "2026-10-08"
       speaker: "Ann Huang (Harvard)"
       website: "https://ann-huang-0.github.io"
-      title: "TBD"
+      title: "Many Solutions to the Same Task: Solution Degeneracy in Trained Neural Networks"
       abstract: |
-        TBD
+        Neural networks trained to the same performance on the same task can solve it in very different ways. They can reach matching training loss yet differ in their out-of-distribution (OOD) behavior, internal representations, mechanisms, and weights, a phenomenon known as solution degeneracy. In this talk, I will present two lines of work on solution degeneracy. First, I will introduce a unified framework for measuring and controlling degeneracy (Huang et al., NeurIPS 2025). Across thousands of trained RNNs, we identified four factors that robustly modulate degeneracy: task complexity, learning regime, network size, and structural regularization. Harder tasks and stronger feature learning make networks' neural dynamics more consistent but their weights more variable, with varied effects on networks' OOD behavior. Meanwhile, larger networks and regularization reduce variability across the neural dynamics, weight, and behavior levels. 
+        Second, I will introduce Hessian Null Space Continuation (HNC; Huang et al., 2026), a scalable method for traversing the solution space of neural networks. HNC moves through connected regions of weight space to find networks that compute the same input-output function with different internal representations, and it can be steered toward solutions with specified properties. Applied to RNNs, Vision Transformers, and RL agents, HNC finds alternative solutions with qualitatively different representations, dynamics, and behavioral strategies. Our results further suggest that the cross-model convergence observed by the Platonic Representation Hypothesis (Huh et al., 2024) may reflect a shared optimization bias rather than a unique representation dictated by the task. Together, these works show that the training task does not uniquely determine the mechanism, and that interpreting models would benefit from a pluralistic view that considers the solution space that a task admits, rather than a single trained network.
 
     - date: "2026-10-22"
       speaker: "Orr Well (MIT)"
       website:
-      title: "TBD"
+      title: "How Linguistic Theory and LLMs Might Inform Each Other"
       abstract: |
-        TBD 
+        We ask what current large language models (LLMs) can contribute to the study of human linguistic cognition and, conversely, whether and how the cognitive sciences might inform LLM design. Building on recent literature, we argue that LLMs can potentially serve as proxies for relatively neutral theories of human cognition, making it possible to reason about such theories and to compare them with proposals from generative linguistics. At present, however, the usefulness of LLMs as proxies remains quite limited. In the other direction, observations about the inductive biases of human learners can guide the construction of artificial neural networks that generalize in a more human-like way. Specifically, we show that applying the Minimum Description Length (MDL) principle improves neural networks’ generalization, whereas other common approaches, such as standard L1/L2 regularization and what has recently been termed “prior-training”, do not. 
 
+    - date: "2026-11-09"
+      speaker: "Sheridan Feucht (Northeastern)"
+      website: https://sfeucht.github.io/
+      title: "How do LLMs Read? Two Ways LLMs Map from Arbitrary Symbols to Words"
+      abstract: |
+        Reading is the process of mapping from arbitrary shapes to meaningful words, and comprises much of how we as humans experience language. But LLMs already live and breathe text. Is there any interesting sense in which they would ever learn to "read"? In this talk, I discuss my work on two settings in which LLMs must map from arbitrary symbols to meaningful word representations. First, despite the fact that tokens in LLMs typically correspond to words, LLMs often still must learn that certain arbitrary token combinations (e.g. "pat", "rolling") correspond to a single semantic unit ("patrolling"). In our work on the "dual-route model of induction", we use such multi-token words to separate two distinct mechanisms for copying text in-context: a semantic pathway and a literal pathway, analogous to the dual-route model of reading in humans. Switching gears to VLMs, I then discuss our recent work on optical character recognition (OCR): how VLMs map from words in pixel space to language space. We identify VLM components responsible for reading text contained in images. Surprisingly, these attention heads can also verbalize semantics of image tokens that do not contain text. We use this finding to create a "logit lens for image tokens" that reveals alignment between image and language space in early VLM layers. Taken together, these two lines of work illustrate how LLMs can "understand" the semantics of words independent of their surface-level features.
+        
     - date: "2026-11-12"
       speaker: "Benno Krojer (Northeastern)"
       website: https://bennokrojer.com
-      title: "TBD"
+      title: "Making sense of foreign representations in LLMs"
       abstract: |
-        TBD
+        LLMs nowadays deal with activations that go far beyond human language. These can come from other modalities: some share many concepts with language (vision, audio), while others may be truly “foreign” to an LLM (e.g., outputs of a protein or chess encoder). But as models grow deeper and more capable, their own internal activations may also drift further from the literal text going in and out, so they become foreign in a different sense. This raises a few important questions: what can an LLM represent in a language-like way, and what lies beyond language? How can interpretability provide insights here?
+        I first present LatentLens, a simple interpretability lens based on contextual nearest neighbors. It lets us check whether non-text tokens, such as visual tokens, look like language inside the LLM. Along the same lines, I discuss cross-modal steering, and behavioral evidence for something many people (including me) had given up on: training on vision can help language performance!
+        I then turn to the second kind of foreignness. Many lenses have recently been proposed to read out deep LLM activations. We find that LatentLens holds up surprisingly well, often beating J-Lens variants on WorkSpaceBench. The talk finishes with open directions, such as reasoning within a single forward pass and the challenges of evaluating these lenses.
 
 - semester: "Spring 2026"
   talks:
