@@ -19,6 +19,12 @@
   venue: "arXiv"
   year: "Work in Progress"
 
+- title: "Interpretability in the Limit: How Can Understanding Machines Help us Understand Human Language?"
+  authors: "<b>Najoung Kim</b> and Ethan Wilcox"
+  url: https://osf.io/preprints/psyarxiv/5x6zj_v1
+  venue: "PsyArXiv"
+  year: "Work in Progress"
+
 # 2026
 
 - title: "LLMs Learn Better In-Context from Rules than from Examples"
